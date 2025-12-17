@@ -13,7 +13,7 @@ import {
 } from "stream-chat-react";
 import "stream-chat-react/dist/css/v2/index.css";
 
-const chatClient = new StreamChat("r8uq6n9qdya6");
+const chatClient = new StreamChat("hvxywn8dfm96");
 
 const Chat = () => {
   const [streamToken, setStreamToken] = useState(null);
