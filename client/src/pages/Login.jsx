@@ -27,7 +27,7 @@ const Login = () => {
     setIsLoading(true);
 
     try {
-      const { data } = await axiosInstance.post("/auth/login", formData);
+      const { data } = await axiosInstance.post("/api/auth/login", formData);
       console.log("Login successful:", data);
       
       // Invalidate and refetch auth status

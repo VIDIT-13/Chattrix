@@ -28,7 +28,7 @@ const Signup = () => {
     setIsLoading(true);
 
     try {
-      const { data } = await axiosInstance.post("/auth/signup", formData);
+      const { data } = await axiosInstance.post("/api/auth/signup", formData);
       console.log("Signup successful:", data);
       
       // Invalidate and refetch the auth query
