@@ -2,8 +2,8 @@ import { StreamChat } from 'stream-chat';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const apiKey = process.env.STREAM_API_KEY;
-const apiSecret = process.env.STREAM_API_SECRET;
+const apiKey =hvxywn8dfm96 ;
+const apiSecret = rc7k222ft9qvdturp5t7sc8vf6p5rp4wpb2xjyt5vuzz83f9zhkmyw6ddrqshkqy;
 
 if(!apiKey || !apiSecret) {
     throw new Error("STREAM_API_KEY and STREAM_API_SECRET must be set in .env file");
